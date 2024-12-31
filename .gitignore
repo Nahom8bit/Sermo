@@ -4,8 +4,13 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# Virtual Environment
 venv/
 env/
+ENV/
+
+# Build
 build/
 develop-eggs/
 dist/
@@ -36,7 +41,20 @@ data/
 *.log
 *.db
 *.sqlite3
+.env
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Redis
+dump.rdb
+
+# Streamlit
+.streamlit/
+
+# Docker
+.docker/
 
 # OS specific
 .DS_Store
-Thumbs.db 
+Thumbs.db

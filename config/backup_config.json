@@ -1,0 +1,11 @@
+{
+    "schedule": {
+        "daily": false,
+        "weekly": false,
+        "monthly": false,
+        "time": "23:00",
+        "retention_days": 30
+    },
+    "last_backup": "20241218_224412",
+    "backup_location": "backups"
+}
